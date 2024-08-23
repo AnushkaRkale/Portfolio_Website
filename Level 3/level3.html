@@ -6,9 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>My Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="level3.css" />
   <link rel="stylesheet" href="mediaqueries.css" />
-  <link rel="script" href="level.js">
+  <link rel="script" href="level3.js">
 </head>
 
 <body>
@@ -46,7 +46,7 @@
     <div class="section__text">
       <p class="section__text__p1">Hello, I'm</p>
       <h1 class="title">Anushka Kale</h1>
-      <p class="section__text__p2">Frontend Deevelopr</p>
+      <p class="section__text__p2">Frontend Developer</p>
       <div class="btn-container">
         <button class="btn btn-color-2" onclick="window.open('add pdf for the resume')">
           Download CV
@@ -80,7 +80,7 @@
           <div class="details-container">
             <img src="./assets/education.png" alt="Education icon" class="icon" />
             <h3>Education</h3>
-            <p>BCA Bachelors Degree<br </p>
+            <p>BCA Bachelors Degree<br /></p>
           </div>
         </div>
         <div class="text-container">
@@ -196,7 +196,7 @@
               Github
             </button>
             <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/AnushkaRkale'">
-              Live Demo
+              Live
             </button>
           </div>
         </div>
@@ -210,21 +210,7 @@
               Github
             </button>
             <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/AnushkaRkale'">
-              Live Demo
-            </button>
-          </div>
-        </div>
-        <div class="details-container color-container">
-          <div class="article-container">
-            <img src="./assets/project-3.png" alt="Project 3" class="project-img" />
-          </div>
-          <h2 class="experience-sub-title project-title">Project Three</h2>
-          <div class="btn-container">
-            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/AnushkaRkale'">
-              Github
-            </button>
-            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/AnushkaRkale'">
-              Live Demo
+              Live
             </button>
           </div>
         </div>
@@ -232,33 +218,31 @@
     </div>
     <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'" />
   </section>
-  <section id="contact">
-    <p class="section__text__p1">Get in Touch</p>
-    <h1 class="title">Contact Me</h1>
-    <div class="contact-info-upper-container">
-      <div class="contact-info-container">
-        <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon" />
-        <p><a href="mailto:examplemail@gmail.com">kaleanushka@gmail.com</a></p>
-      </div>
-      <div class="contact-info-container">
-        <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
-        <p><a href="https://www.linkedin.com/in/anushka-kale-7103812b3/">LinkedIn</a></p>
-      </div>
+  <section id="video">
+    <div class="video-container">
+      <h2>Watch My Latest Video</h2>
+      <iframe id="my-video" src="https://www.youtube.com/watch?v=yJg-Y5byMMw" frameborder="0" allowfullscreen></iframe>
     </div>
-    
+  </section>
+  <section id="contact">
+    <form class="formitem">
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required />
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required />
+      </div>
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" required></textarea>
+      </div>
+      <input type="submit" value="Send" />
+    </form>
   </section>
   <footer>
-    <nav>
-      <div class="nav-links-container">
-        <ul class="nav-links">
-          <li><a href="#about">About</a></li>
-          <li><a href="#experience">Experience</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </div>
-    </nav>
-    <p>Copyright &#169; 2024 Anushka Kale. All Rights Reserved.</p>
+    <p>&copy; 2024 Anushka Kale. All rights reserved.</p>
   </footer>
   <script src="script.js"></script>
 </body>
