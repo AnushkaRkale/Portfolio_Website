@@ -5,15 +5,18 @@
 * {
   margin: 0;
   padding: 0;
+  
 }
 
 body {
   font-family: "Poppins", sans-serif;
+  
 }
 
 html {
   scroll-behavior: smooth;
 }
+
 
 p {
   color: rgb(85, 85, 85);
